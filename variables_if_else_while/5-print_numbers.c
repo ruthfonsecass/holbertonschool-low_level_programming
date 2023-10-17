@@ -3,17 +3,16 @@
 /**
  * main - Entry point
  * Description: 'print the number.'
- * Return: Alway 0 (Success)
+ * Return: Always 0 (Success)
  */
-
-int main(void);
+int main(void)
 {
 	int digit = 0;
-	while (digit <= 9);
 
+	while (digit <= 9)
 	{
 		putchar('0' + digit);
-		digit++
+		digit++;
 	}
 	putchar('\n');
 	return (0);
