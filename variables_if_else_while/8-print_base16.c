@@ -22,5 +22,6 @@ int main(void)
 		putchar(hexDigit);
 		hexDigit++;
 	}
+	putchar('\n');
 	return (0);
 }
