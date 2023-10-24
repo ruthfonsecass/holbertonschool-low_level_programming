@@ -15,7 +15,6 @@ void print_rev(char *s)
 	for (i = taille; i >= 0; i--)
 	{
 		_putchar(s[i]);
-		i--;
 	}
 	_putchar('\n');
 }
