@@ -7,9 +7,6 @@
  */
 void _puts(char *str)
 {
-	char a[]
-	{
-	puts("%s", a);
-	}
+	_puts(str);
 	_putchar('\n');
 }
