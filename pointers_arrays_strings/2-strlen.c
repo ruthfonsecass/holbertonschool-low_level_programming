@@ -7,6 +7,11 @@
  */
 int _strlen(char *s)
 {
-	strlen(*s);
+	int a = 0;
+	while( s[a] != '\0')
+	{
+		a++
+	}
+	_putchar('%d', a);
 	return 0;
 }
