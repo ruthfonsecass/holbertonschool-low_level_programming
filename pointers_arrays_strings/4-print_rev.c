@@ -10,9 +10,9 @@ void print_rev(char *s)
 	char taille = 0, i;
 
 	while (s[taille])
-		taille++;
+	taille++;
 
-	for (i = 0; i >= 0; i--)
+	for (i = taille; i >= 0; i--)
 	{
 		_putchar(s[i]);
 		i--;
