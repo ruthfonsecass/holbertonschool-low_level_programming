@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- *_puts - check the code
- * @str: variable
+ * print_rev - check the code
+ * @s: variable
  * Return: void
  */
-void _puts(char *str)
+void print_rev(char *s)
 {
-	int i = 0;
+	char i = 0;
 
 	while (str[i])
 	{
