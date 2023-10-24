@@ -7,7 +7,7 @@
  */
 void print_rev(char *s)
 {
-	char taille = 0, i;
+	int taille = 0, i;
 
 	while (s[taille])
 	taille++;
