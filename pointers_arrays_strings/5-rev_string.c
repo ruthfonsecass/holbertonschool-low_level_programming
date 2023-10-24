@@ -13,7 +13,7 @@ void rev_string(char *s)
 	{
 		fim++;
 	}
-	for (fim--; ini <= fim; ini++; fim--)
+	for (fim--; ini <= fim; fim--)
 	{
 		_putchar(s);
 	}
