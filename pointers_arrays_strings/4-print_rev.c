@@ -12,7 +12,7 @@ void print_rev(char *s)
 	while (s[taille])
 		taille++;
 
-	for (i = taille; i >= 0; i--)
+	for (i = taille -1; i >= 0; i--)
 	{
 		_putchar(s[i]);
 	}
