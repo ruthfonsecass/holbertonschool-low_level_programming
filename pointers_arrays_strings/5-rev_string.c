@@ -7,14 +7,17 @@
  */
 void rev_string(char *s)
 {
-	char mot[]
-		int i, aux, fim, tam = s;
-	fim = tam - 1;
-	for (i = 0; i < tam; i++)
+	int i, len = 0;
+	char temp;
+
+	while (s[len])
 	{
-		aux = s[i];
-		s[i] = s[fim];
-		s[fim] = aux;
-		fim--;
+		len++;
+	}
+
+	for (i = len - 1; i >= 0; i--)
+	{
+		temp = s[i];
+		//Calcul
 	}
 }
