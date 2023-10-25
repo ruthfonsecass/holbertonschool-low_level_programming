@@ -7,15 +7,14 @@
  */
 void rev_string(char *s)
 {
-	char *ini, *fim;
-	ini = fim = s;
-	while (*fim)
+	char mot[]
+		int i, aux, fim, tam = s;
+	fim = tam - 1;
+	for (i = 0; i < tam; i++)
 	{
-		fim++;
+		aux = s[i];
+		s[i] = s[fim];
+		s[fim] = aux;
+		fim--;
 	}
-	for (fim--; ini <= fim; fim--)
-	{
-		_putchar(s);
-	}
-
 }
