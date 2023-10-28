@@ -4,7 +4,6 @@
  * @dest: valeur
  * @src: valeur
  * Return: dest
- *
  */
 char *_strcat(char *dest, char *src)
 {
@@ -13,11 +12,10 @@ char *_strcat(char *dest, char *src)
 	while (*(dest + 1))
 		i++;
 
-	while ((*(dest + 1) = *(src + j)))
+	while ((*(dest + i) = *(src + j)))
 	{
 		i++;
 		j++;
 	}
-
 	return (dest);
 }
