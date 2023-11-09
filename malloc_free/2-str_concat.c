@@ -1,9 +1,11 @@
 #include "main.h"
 #include <stdio.h>
+#include < stdlib.h>
 
 /**
- * main - check the code
- *
+ * str_concat - check the code
+ * @s1: string
+ * @s2: string 2
  * Return: Always 0.
  */
 char *str_concat(char *s1, char *s2);
@@ -20,7 +22,7 @@ char *str_concat(char *s1, char *s2);
 	for (len2 = 0; s2[j] != '\0'; len2++)
 		;
 	ptr = malloc(sizeof (char) *(s1 + s2 + 1));
-	
+
 	for (i = 0; i < len1; i++)
 	{
 		ptr[i] = s1
