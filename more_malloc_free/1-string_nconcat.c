@@ -4,7 +4,9 @@
 
 /**
  * string_nconcat - check the code
- *@b: valeur
+ * @s1: valeur
+ * @s2: valeur 2
+ * @n: valeur
  * Return: Always 0.
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
