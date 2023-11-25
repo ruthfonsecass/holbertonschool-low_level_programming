@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
- * main - check the code
- * @dest: valeur
- * @src: valeur
+ * _strcat - check the code
+ * @dest: string
+ * @src: string
+ *
  * Return: dest
  */
 char *_strcat(char *dest, char *src)
