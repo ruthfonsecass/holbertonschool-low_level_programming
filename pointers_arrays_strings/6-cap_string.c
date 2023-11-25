@@ -1,23 +1,38 @@
 #include "main.h"
-#include <stdio.h>
+
 
 /**
- * main - check the code
- *
+ * cap_string - check the code
+ * @s: string
  * Return: Always 0.
  */
-char *cap_string(char *)
+char *cap_string(char *s)
 {
-	int i = 0
-	char s1[];
-	char s2[];
+	int i = 0;
+	char sep[] = {' ', '\t', '\n', ',', ';', '.', '!', '?',
+		'"', '(', ')', '{', '}', '\0'};
 
-	while (s1 != '\0')
+	if (i == 0 && s[i] >= 'a' && s[i] <= 'z')
 	{
-		s2[i] = toupper(s1[i]);
+		s[i] -= 32;
+	}
+	while (s[i])
+	{
+		int b = 0;
+
+		while (sep[b])
+		{
+			if (s[i] == sep[b])
+			{
+				if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
+				{
+					s[i + 1] -= 32;
+				}
+			}
+			b++;
+		}
 		i++;
 	}
-	s2[i] = '\0';
 
-	return (s2);
+	return (s);
 }
