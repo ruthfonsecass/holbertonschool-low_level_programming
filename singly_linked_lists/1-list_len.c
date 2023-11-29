@@ -1,7 +1,7 @@
-#include "main.h"
+#include "lists.h"
 
 /**
- * list_leh - check the code
+ * list_len - check the code
  * @h: pointeur
  * Return: Always 0.
  */
