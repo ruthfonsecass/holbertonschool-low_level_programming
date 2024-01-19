@@ -31,11 +31,10 @@ int binary_search(int *array, size_t size, int value)
 				printf("\n");
 		}
 
-		middle = low + (low + high) / 2;
+		middle = (low + high) / 2;
 
 		if (array[middle] == value)
 			return (middle);
-
 		if (array[middle] < value)
 			low = middle + 1;
 		else
